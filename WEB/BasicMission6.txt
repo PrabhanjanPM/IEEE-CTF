@@ -1,0 +1,3 @@
+On encrypting "Helloworld", we get "Hfnos|uytm". 
+We see that each character is increased(ASCII value) by its place(starting from 0).
+In this manner we decrypt the password. 
