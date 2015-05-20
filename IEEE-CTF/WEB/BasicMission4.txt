@@ -1,1 +1,0 @@
-Change the email address in the html form code from sam@hackthissite.org to your own email ID and click submit. The password will be sent to the specified email ID.
