@@ -3,6 +3,7 @@
 int main(){
         char a[100];
         char b[100];
+        int i;
         printf("Enter Plaintext- ");
         gets(a);
         printf("Enter key(same length as the plaintext)- ");
