@@ -2,8 +2,8 @@ import java.util.*;
 class XORingStrings{
 	public static void main(String args[]){
 		Scanner s= new Scanner(System.in);
-		String a=s.nextLine();
-		String b=s.nextLine();
+		String a="1c0111001f010100061a024b53535009181c"
+		String b="686974207468652062756c6c277320657965"
 		String x="";
 		for(int i=0;i<a.length();i++){
 			x=x+toHex(fromHex(a.charAt(i))^fromHex(b.charAt(i)));
