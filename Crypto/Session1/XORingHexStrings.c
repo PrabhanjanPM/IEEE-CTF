@@ -10,9 +10,11 @@ int main(){
         gets(a);
         printf("Enter key(same length as the plaintext)- ");
         gets(b);
+        char x[strlen(a)+1];
         for(i=0;i<strlen(a);i++){
-                a[i]=toHex(fromHex(a[i])^fromHex(b[i]));
+                x[i]=toHex(fromHex(a[i])^fromHex(b[i]));
         }
+        x{strlen(a)+1]='\0';
         printf("Ciphertext- %s\n",a);
         return 0;
 }
@@ -28,7 +30,7 @@ int fromHex(char c){
 	}
 }
 char toHex(int n){
-	char *a="0123456789ABCDEF";
+	char a[16]="0123456789ABCDEF";
 	return a[n];
 }
        
