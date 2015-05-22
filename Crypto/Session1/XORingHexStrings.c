@@ -15,7 +15,7 @@ int main(){
                 x[i]=toHex(fromHex(a[i])^fromHex(b[i]));
         }
         x{strlen(a)+1]='\0';
-        printf("Ciphertext- %s\n",a);
+        printf("Ciphertext- %s\n",x);
         return 0;
 }
 int fromHex(char c){
