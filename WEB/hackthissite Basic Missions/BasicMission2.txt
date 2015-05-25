@@ -1,0 +1,1 @@
+Since there is no file to compare the password to, leave the text box empty. 
