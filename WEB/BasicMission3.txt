@@ -1,2 +1,0 @@
-The password is uploaded using a hidden text box, and the path of the password file is given in the html code. 
-Password is 14a1f471
