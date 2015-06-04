@@ -1,0 +1,4 @@
+SSI(Server Side Includes) Injection
+We can get the server to execute a script by typing <!--#exec cmd="ls .."--> in the text box. 
+The output shows all the files in the ..(upper directory) directory. 
+The password is present in https://www.hackthissite.org/missions/basic/8/au12ha39vc.php
