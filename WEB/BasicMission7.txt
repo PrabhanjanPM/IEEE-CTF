@@ -1,4 +1,0 @@
-Command Injection
-In the text box of calender, enter-<;ls>(without the <>)
-We get output as the calendar of the current month along with all the files present in the directory. 
-The password is present in https://www.hackthissite.org/missions/basic/7/k1kh31b1n55h.php
