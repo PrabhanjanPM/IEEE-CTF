@@ -1,5 +1,5 @@
 import java.util.*;
-class XORingStrings{
+class FixedXOR{
 	public static void main(String args[]){
 		Scanner s= new Scanner(System.in);
 		String a="1c0111001f010100061a024b53535009181c";
